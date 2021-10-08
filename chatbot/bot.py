@@ -32,9 +32,9 @@ class Bot:
         if re.search('hi|hello', user_text):
             return self.hello_response()
 
+        #@todo: parse a command like "Say cat" so that the bot replies "cat"
         #@todo: parse a question like "Who is Barack Obama?" and return a response from wikipedia
         #@todo: parse a question like "What is trypophobia?" and return a response from wikipedia
-        #@todo: parse a command like "Say cat" so that the bot replies "cat"
         #@todo: parse a question about capitals like "what is the capital of Ukraine?" and use SPARQL to get the reply
 
         else:
